@@ -2,7 +2,26 @@
     "name": "My_Test_Project",
     "description": "A Node-RED Project",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-cip-ethernet-ip": "1.1.3",
+        "node-red-contrib-counter": "0.1.6",
+        "node-red-contrib-fs": "1.4.1",
+        "node-red-contrib-fs-ops": "1.6.0",
+        "node-red-contrib-http-custom-port": "0.0.8",
+        "node-red-contrib-image-output": "0.6.3",
+        "node-red-contrib-modbus": "5.23.1",
+        "node-red-contrib-moment": "4.0.0",
+        "node-red-contrib-mssql-plus": "0.7.3",
+        "node-red-contrib-opcua": "0.2.286",
+        "node-red-contrib-spreadsheet-in": "0.6.0",
+        "node-red-contrib-telegrambot": "12.0.0",
+        "node-red-contrib-ui-led": "0.4.11",
+        "node-red-dashboard": "3.1.7",
+        "node-red-node-mysql": "1.0.3",
+        "node-red-node-ping": "0.3.1",
+        "node-red-node-random": "0.4.0",
+        "node-red-node-serialport": "1.0.1"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows.json",
